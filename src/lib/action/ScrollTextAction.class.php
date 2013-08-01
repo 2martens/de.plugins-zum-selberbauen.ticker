@@ -32,7 +32,10 @@ class ScrollTextAction extends AbstractSecureAction {
 		parent::execute();
 		$this->saveToDatabase();
 		$this->resetCache();
-		$this->generateResponse();				
+		$this->generateResponse();
+		
+		$this->executed();
+		
 		$this->sendResponse();
 	}
 	
@@ -57,7 +60,7 @@ class ScrollTextAction extends AbstractSecureAction {
 		        VALUES
 		        (:text, :time)';
 		$sql = str_replace(':text', "'".escapeString($this->newItem)."'", $sql);
-		$sql = str_replace(':time', TIME_NOW);
+		$sql = str_replace(':time', TIME_NOW, $sql);
 		WCF::getDB()->sendQuery($sql);
 	}
 	
@@ -76,7 +79,7 @@ class ScrollTextAction extends AbstractSecureAction {
 	 * Generates the response.
 	 */
 	protected function generateResponse() {
-		$this->response = '<li class="news-item">'.StringUtil::encodeHTML($this->newItem).'</li>';
+		$this->response = StringUtil::encodeHTML($this->newItem);
 	}
 	
 	/**
