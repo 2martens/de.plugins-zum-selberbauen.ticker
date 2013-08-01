@@ -42,7 +42,7 @@
         <languages languagecode="en">language/en.xml</languages>
     </instructions>
     
-    <instruction type="update" fromversion="1.0.0 Alpha 1">
+    <instructions type="update" fromversion="1.0.0 Alpha 1">
         <options>options.xml</options>
-    </instruction>
+    </instructions>
 </package>
