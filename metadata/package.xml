@@ -37,5 +37,10 @@
         <eventlistener>eventlistener.xml</eventlistener>
         <cronjobs>cronjobs.xml</cronjobs>
         <options>options.xml</options>
+        
+        <!-- languages -->
+        <languages languagecode="de">language/de.xml</languages>
+        <languages languagecode="de-informal">language/de-informal.xml</languages>
+        <languages languagecode="en">language/en.xml</languages>
     </instructions>
 </package>
