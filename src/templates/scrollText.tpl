@@ -10,7 +10,7 @@
             <fieldset>
                 <div class="formElement" id="newsItemDiv">
                     <div class="formFieldLabel">
-                        <label for="newsItem">{lang}wcf.global.newsItem{/lang}</label>
+                        <label for="newsItem">{lang}wcf.global.addNewsItem{/lang}</label>
                     </div>
                     <div class="formField">
                         <input type="text" class="inputText" id="newsItem" name="newsItem" value="" />
@@ -50,7 +50,6 @@
 					showLoadingOverlay: false,
 					success: function(data, textStatus, jqXHR) {
 						$('#js-news').append(data);
-						$('#js-news').ticker();
 					},
 					suppressErrors: false,
 					type: 'POST',
@@ -66,7 +65,7 @@
 					type: options.type,
 					url: options.url,
 					success: options.success,
-					error: null
+					error: options.failure
 				});
 			});
 		{/if}

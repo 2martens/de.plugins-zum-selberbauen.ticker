@@ -11,4 +11,8 @@
         <item name="wcf.acp.option.general_scrollText_showTime"><![CDATA[Show time]]></item>
         <item name="wcf.acp.option.general_scrollText_showTime.description"><![CDATA[Please insert here the time a news should be displayed.]]></item>
     </category>
+    
+    <category name="wcf.global">
+        <item name="wcf.global.addNewsItem"><![CDATA[Add entry]]></item>
+    </category>
 </language>

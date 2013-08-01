@@ -12,4 +12,8 @@
         <item name="wcf.acp.option.general_scrollText_showTime"><![CDATA[Anzeigedauer]]></item>
         <item name="wcf.acp.option.general_scrollText_showTime.description"><![CDATA[Geben Sie hier die Anzeigedauer einer News in Sekunden an.]]></item>
     </category>
+    
+    <category name="wcf.global">
+        <item name="wcf.global.addNewsItem"><![CDATA[Eintrag hinzufügen]]></item>
+    </category>
 </language>
