@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="en" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd">
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.general.scrollText"><![CDATA[Ticker]]></item>
+        <item name="wcf.acp.option.category.general.scrollText.description"><![CDATA[]]></item>
+        <!-- module -->
+        <item name="wcf.acp.option.module_scrollText"><![CDATA[Ticker]]></item>
+        <item name="wcf.acp.option.module_scrollText.description"><![CDATA[Enables ticker]]></item>
+        
+        <!-- options -->
+        <item name="wcf.acp.option.general_scrollText_showTime"><![CDATA[Show time]]></item>
+        <item name="wcf.acp.option.general_scrollText_showTime.description"><![CDATA[Please insert here the time a news should be displayed.]]></item>
+    </category>
+    
+    <category name="wcf.global">
+        <item name="wcf.global.addNewsItem"><![CDATA[Add entry]]></item>
+    </category>
+</language>
