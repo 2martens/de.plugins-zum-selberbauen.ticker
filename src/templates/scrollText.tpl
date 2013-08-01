@@ -16,13 +16,13 @@
 	        debugMode: false,       // Show some helpful errors in the console or as alerts
 	  	                       // SHOULD BE SET TO FALSE FOR PRODUCTION SITES!
 	        controls: true,        // Whether or not to show the jQuery News Ticker controls
-	        titleText: 'Latest',   // To remove the title set this to an empty String
-	        displayType: 'reveal', // Animation type - current options are 'reveal' or 'fade'
+	        titleText: '',   // To remove the title set this to an empty String
+	        displayType: 'fade', // Animation type - current options are 'reveal' or 'fade'
 	        direction: 'ltr',       // Ticker direction - current options are 'ltr' or 'rtl'
-	        pauseOnItems: 10000,    // The pause on a news item before being replaced
+	        pauseOnItems: {@GENERAL_SCROLLTEXT_SHOWTIME}000,    // The pause on a news item before being replaced
 	        fadeInSpeed: 600,      // Speed of fade in animation
 	        fadeOutSpeed: 300      // Speed of fade out animation
 		});
-	]);
+	});
 //]]>
 </script>

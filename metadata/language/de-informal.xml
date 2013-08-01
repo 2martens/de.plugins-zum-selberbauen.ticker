@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language languagecode="de-informal" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd">
     <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.general.scrollText"><![CDATA[Ticker]]></item>
+        <item name="wcf.acp.option.category.general.scrollText.description"><![CDATA[]]></item>
         <!-- module -->
-        <item name="wcf.acp.option.module_scrollText"><![CDATA[Lauftext]]></item>
-        <item name="wcf.acp.option.module_scrollText.description"><![CDATA[Aktiviert Lauftext]]></item>
+        <item name="wcf.acp.option.module_scrollText"><![CDATA[Ticker]]></item>
+        <item name="wcf.acp.option.module_scrollText.description"><![CDATA[Aktiviert Ticker]]></item>
+        
+        <!-- options -->
+        <item name="wcf.acp.option.general_scrollText_showTime"><![CDATA[Anzeigedauer]]></item>
+        <item name="wcf.acp.option.general_scrollText_showTime.description"><![CDATA[Gib hier die Anzeigedauer einer News in Sekunden an.]]></item>
     </category>
 </language>
