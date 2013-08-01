@@ -44,5 +44,6 @@
     
     <instructions type="update" fromversion="1.0.0 Alpha 1">
         <options>options.xml</options>
+        <eventlistener>eventlistener.xml</eventlistener>
     </instructions>
 </package>
