@@ -19,7 +19,7 @@
             <option name="general_scrollText_showTime">
                 <categoryname>general.scrollText</categoryname>
                 <optiontype>integer</optiontype>
-                <defaultvalue>10</defaultvalue>
+                <defaultvalue>5</defaultvalue>
                 <validationpattern>^\d?[1-9]$</validationpattern>
             </option>
             <!-- /options -->
