@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/groupoptions.xsd">
+    <import>
+        <options>
+            <!-- scrollText options -->
+            <option name="user.content.newslettersystem.canSeeSubscriberOverview">
+                <categoryname>user.content.newslettersystem</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <showorder>1</showorder>
+            </option>
+            <!-- /scrollText options -->
+        </options>
+    </import>
+</data>
