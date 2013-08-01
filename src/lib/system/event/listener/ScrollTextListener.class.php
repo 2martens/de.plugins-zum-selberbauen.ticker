@@ -30,13 +30,13 @@ class ScrollTextListener implements EventListener {
 		$fetchedTemplate = WCF::getTPL()->fetch('scrollText');
 		WCF::getTPL()->append('userMessages', $fetchedTemplate);
 		
-		WCF::getTPL()->append('specialStyles', '<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>'
-			.'<script type="text/javascript">'
-			.'//<![CDATA['
-			.'    jQuery.noConflict();'
-			.'//]]>'
-			.'</script>'
-			.'<link href="'.RELATIVE_WCF_DIR.'style/3rdParty/ticker-style.css" rel="stylesheet" type="text/css" />'
+		WCF::getTPL()->append('specialStyles', '<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>'."\n"
+			.'<script type="text/javascript">'."\n"
+			.'//<![CDATA['."\n"
+			.'    jQuery.noConflict();'."\n"
+			.'//]]>'."\n"
+			.'</script>'."\n"
+			.'<link href="'.RELATIVE_WCF_DIR.'style/3rdParty/ticker-style.css" rel="stylesheet" type="text/css" />'."\n"
 			.'<script src="'.RELATIVE_WCF_DIR.'js/3rdParty/jquery.ticker.js" type="text/javascript"></script>'
 		);
 	}
