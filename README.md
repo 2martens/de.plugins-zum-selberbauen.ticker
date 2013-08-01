@@ -1,8 +1,12 @@
-Scrolling text
-========================================
+Ticker
+======
 
-Provides the ability to use scrolling texts in the header.
+Provides the ability to use a news ticker in the header.
 
+Version notes
+------------
+
+The currently available source code represents an early beta version of Ticker and should not be used in productive environments.
 
 License
 -------
