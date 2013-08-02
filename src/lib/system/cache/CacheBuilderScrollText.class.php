@@ -8,7 +8,7 @@ require_once(WCF_DIR.'lib/system/cache/CacheBuilder.class.php');
  * @author		Jim Martens
  * @copyright	2013 Jim Martens
  * @license		http://www.gnu.org/licenses/old-licenses/lgpl-2.1 GNU Lesser General Public License, version 2.1
- * @package		de.plugins-zum-selberbauen.scrollingText
+ * @package		de.plugins-zum-selberbauen.ticker
  * @subpackage	system.cache
  * @category	Community Framework
  */
