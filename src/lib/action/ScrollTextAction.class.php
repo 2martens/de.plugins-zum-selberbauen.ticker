@@ -8,7 +8,7 @@ require_once(WCF_DIR.'lib/action/AbstractSecureAction.class.php');
  * @author		Jim Martens
  * @copyright	2013 Jim Martens
  * @license		http://www.gnu.org/licenses/lgpl-3.0 GNU Lesser General Public License, version 3
- * @package		de.plugins-zum-selberbauen.scrollingText
+ * @package		de.plugins-zum-selberbauen.ticker
  * @subpackage	action
  * @category	Community Framework
  */
